@@ -1,0 +1,11 @@
+Both programs need to be compiled as follows:
+
+g++ -std=c++0x *sort.cpp
+
+where * == quick or merge
+
+The gnu compiler on the servers doesn't support
+C++11 libraries as standard.
+
+The quicksort might take a while,
+I went for randomness over speed. 
